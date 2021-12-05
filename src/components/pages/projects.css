@@ -43,10 +43,13 @@ main {
   background: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/14862-black-turquoise-background.jpg?w=600);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px 0;
+  height: 100%;
+  
 }
 
-
+.sizing{
+  min-height: 100vh;
+}
 
 
 
@@ -131,6 +134,10 @@ li {
   background-position: bottom;
 }
 
+.contactText{
+  color: aqua;
+}
+
 #link6 {
   background-image: url(../../assets/images/torosun.jpg);
   background-size: cover;
@@ -204,6 +211,14 @@ li {
   justify-content: center;
   flex-wrap: wrap;
 
+}
+
+p {
+  color: aqua;
+}
+
+h1 {
+  color: aqua;
 }
 
 
