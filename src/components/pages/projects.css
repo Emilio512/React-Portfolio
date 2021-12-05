@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+  color: #4F4846;
+}
+
+
+.flexcontainer {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+#contact {
+  color: aqua;
+}
+
+.align {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  padding-left: 75px;
+  margin: 40px;
+
+
+}
+
+h1,
+h2 {
+
+  width: 600px;
+
+}
+
+main {
+  background: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/14862-black-turquoise-background.jpg?w=600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+
+
+
+
+li {
+  display: inline;
+  padding: 50px 30px;
+  text-decoration: none;
+}
+
+#link {
+  background-image: url(../../assets/images/Horisean.png);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
+
+#link:hover {
+
+  background-position: bottom;
+}
+
+#link2 {
+  background-image: url(../../assets/images/project1.png);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
+
+#link2:hover {
+  background-position: bottom;
+
+}
+
+#link3 {
+  background-image: url(../../assets/images/project2.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
+
+#link3:hover {
+  background-position: bottom;
+}
+
+#link4 {
+  background-image: url(../../assets/images/blancatoro.JPG);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
+
+#link4:hover {
+
+  background-position: bottom;
+}
+
+#link5 {
+  background-image: url(../../assets/images/toro2.JPG);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+
+}
+
+#link5:hover {
+
+  background-position: bottom;
+}
+
+#link6 {
+  background-image: url(../../assets/images/torosun.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+
+}
+
+#link6:hover {
+
+  background-position: bottom;
+}
+
+
+#box-1 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-2 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-3 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-4 {
+
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-5 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-6 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+.butt {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+a {
+  text-decoration: none;
+  color: aqua;
+
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  line-height: 20px;
+  background-color: black;
+  position: relative;
+  font-size: 25px;
+  border-bottom: 50px solid #4F4846;
+
+}
+
+
+
+
+#leftheading {
+  display: inline-block;
+  padding-top: 20px;
+  justify-content: center;
+  align-content: center;
+
+
+
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  bottom: 0px;
+  border-top: 30px solid #4F4846;
+  background-color: black;
+
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+#rasta {
+ border-radius: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+}
+
+.meimage {
+  position: right;
+  top: 30px;
+  right: 16px;
+  font-size: 18px;
+
+
+}
+
+section {
+
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+}
+
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+
+/* Class Selectors */
+.text-center {
+
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+  position: relative;
+  bottom: 190px;
+
+  /* @media screen and (min-width: 993px) {
+    body 
+      flex-direction: row ;
+    } */
+  }
+
