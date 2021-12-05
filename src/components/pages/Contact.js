@@ -1,6 +1,9 @@
 import React,{ useState } from 'react';
 import '../../styles/Contact.css';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from 'emailjs-com'
+import apiKeys from '../apikeys'
+
 
 export default function Contact() {
      // Create state variables for the fields in the form
@@ -86,5 +89,6 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>)}
     </div>
+    
   );
 }
