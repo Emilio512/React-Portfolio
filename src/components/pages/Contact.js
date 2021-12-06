@@ -2,7 +2,7 @@ import React,{ useState } from 'react';
 import '../../styles/Contact.css';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from 'emailjs-com'
-import apiKeys from '../apikeys'
+// import apiKeys from '../apikeys'
 
 
 export default function Contact() {
